@@ -46,7 +46,7 @@ install_packages() {
 # Function to download and set up Oneshot tool
 setup_oneshot() {
     echo "Downloading Oneshot tool..."
-    wget -O oneshot.py https://raw.githubusercontent.com/mashunterbd/Oneshot/master/oneshot.py?token=GHSAT0AAAAAACTILMOWJLOLQRRGRO6VGARAZUUU5EQ
+    wget -O oneshot.py https://raw.githubusercontent.com/mashunterbd/Oneshot/master/oneshot.py
     chmod +x oneshot.py
     echo "Necessary package setup complete"
     echo "Execute permission complete"
